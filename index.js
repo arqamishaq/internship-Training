@@ -1,0 +1,1 @@
+console.log("Day 1 Development Environment Ready!");
