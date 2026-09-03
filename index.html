@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>My Profile</h1>
+
+        <p>
+            Welcome to my profile page.
+        </p>
+
+    </header>
+
+
+    <!-- Navigation -->
+    <nav>
+
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#information">Information</a> |
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+
+            <h2>About Me</h2>
+
+            <img src="/image.png"
+                 alt="Profile Picture"
+                 width="150">
+
+            <p>
+                I am a student interested in web development
+                and programming. I enjoy learning new technologies
+                and building websites.
+
+            </p>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" ">
+
+            <h2 class="section-title">My Skills</h2>
+
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+            </ul>
+
+        </section>
+
+
+        <!-- Links Section -->
+        <section>
+
+            <h2 class="links-heading">My Links</h2>
+
+            <ul class="links-list">
+                <li><a class="link" href="https://github.com">GitHub</a></li>
+                <li><a class="link" href="https://linkedin.com">LinkedIn</a></li>
+            </ul>
+
+        </section>
+
+
+        <!-- Information Section -->
+        <section id="information">
+
+            <h2 class="information">User Information</h2>
+
+            <table border="1">
+
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Education</th>
+                </tr>
+
+                <tr>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>City</td>
+                    <td>Education</td>
+                </tr>
+
+                               <tr>
+                    <td>Arqam</td>
+                    <td>21</td>
+                    <td>Lahore</td>
+                    <td>BSIT</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+
+        <!-- Contact Form -->
+        <section id="contact">
+
+            <h2 class="contact">Contact Me</h2>
+
+            <form id="contactForm"
+                  action="https://formspree.io/f/mnqvayqv"
+                  method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <br>
+
+                <textarea id="message"
+                          name="message"
+                          rows="5"
+                          cols="30"></textarea>
+
+                <br><br>
+
+                <button>
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            © 2026 My Profile. All Rights Reserved.
+        </p>
+
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
