@@ -1,24 +1,19 @@
- Internship Training
+# Internship Training Project
 
-This repository contains my JavaScript learning journey and practice work during my internship training.
+Simple profile page built with HTML, CSS and JavaScript as part of internship training.
 
-📌 About
-This project is created for learning and practicing JavaScript fundamentals, along with hands-on internship tasks assigned during training.
+## Features
+- Responsive profile page design
+- About, Skills, Links, Information, and Contact sections
+- Contact form with validation (name, email, password checks)
+- Smooth scroll navigation
+- Active nav link highlighting on scroll
 
- 📁 Files
-- index.js — Main JavaScript file containing practice code and exercises
-- package.json — Project configuration and dependencies
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
- Purpose
-- Learn JavaScript from scratch (step-by-step)
-- Practice core JS concepts (variables, functions, loops, DOM, etc.)
-- Apply concepts through hands-on internship tasks
-
-## 🛠️ Tech Stack
-
-- JavaScript
-- Node.js
-- 
- 📅 Status
-
- In Progress — Actively updating as I learn new concepts.
+## How to Run
+1. Clone this repository
+2. Open `index.html` in your browser
